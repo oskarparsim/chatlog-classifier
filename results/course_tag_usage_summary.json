@@ -1,0 +1,181 @@
+{
+  "total_conversations": 702,
+  "unmatched_conversations": 45,
+  "course_tag_usage_by_conversation": [
+    {
+      "course": "LTMS.00.062 | Kõrgem matemaatika I (alused)",
+      "conversation_count": 80,
+      "debugging": 2,
+      "code_generation": 1,
+      "explanations": 79
+    },
+    {
+      "course": "LTAT.03.007 | Programmeerimine II",
+      "conversation_count": 73,
+      "debugging": 42,
+      "code_generation": 50,
+      "explanations": 66
+    },
+    {
+      "course": "LTAT.03.005 | Algoritmid ja andmestruktuurid",
+      "conversation_count": 55,
+      "debugging": 14,
+      "code_generation": 33,
+      "explanations": 49
+    },
+    {
+      "course": "MTMM.00.342 | Matemaatiline maailmapilt",
+      "conversation_count": 46,
+      "debugging": 0,
+      "code_generation": 0,
+      "explanations": 46
+    },
+    {
+      "course": "MTMS.02.059 | Tõenäosusteooria ja matemaatiline statistika",
+      "conversation_count": 46,
+      "debugging": 1,
+      "code_generation": 0,
+      "explanations": 46
+    },
+    {
+      "course": "LTAT.03.001 | Programmeerimine",
+      "conversation_count": 45,
+      "debugging": 23,
+      "code_generation": 26,
+      "explanations": 38
+    },
+    {
+      "course": "LTAT.03.004 | Andmebaasid",
+      "conversation_count": 37,
+      "debugging": 17,
+      "code_generation": 21,
+      "explanations": 34
+    },
+    {
+      "course": "LTAT.05.004 | Veebirakenduste loomine",
+      "conversation_count": 35,
+      "debugging": 26,
+      "code_generation": 11,
+      "explanations": 33
+    },
+    {
+      "course": "LTAT.03.003 | Objektorienteeritud programmeerimine",
+      "conversation_count": 27,
+      "debugging": 11,
+      "code_generation": 21,
+      "explanations": 22
+    },
+    {
+      "course": "LTAT.05.003 | Tarkvaratehnika",
+      "conversation_count": 27,
+      "debugging": 15,
+      "code_generation": 3,
+      "explanations": 26
+    },
+    {
+      "course": "LTAT.05.006 | Tarkvara testimine",
+      "conversation_count": 25,
+      "debugging": 12,
+      "code_generation": 7,
+      "explanations": 23
+    },
+    {
+      "course": "LTAT.05.007 | Inimese ja arvuti interaktsioon",
+      "conversation_count": 24,
+      "debugging": 6,
+      "code_generation": 6,
+      "explanations": 22
+    },
+    {
+      "course": "LTAT.06.001 | Operatsioonisüsteemid",
+      "conversation_count": 20,
+      "debugging": 8,
+      "code_generation": 7,
+      "explanations": 20
+    },
+    {
+      "course": "LTAT.06.002 | Andmeturve",
+      "conversation_count": 20,
+      "debugging": 6,
+      "code_generation": 3,
+      "explanations": 20
+    },
+    {
+      "course": "LOFY.03.079 | Arvuti arhitektuur ja riistvara I",
+      "conversation_count": 19,
+      "debugging": 0,
+      "code_generation": 0,
+      "explanations": 19
+    },
+    {
+      "course": "LTMS.00.066 | Diskreetne matemaatika",
+      "conversation_count": 14,
+      "debugging": 0,
+      "code_generation": 0,
+      "explanations": 14
+    },
+    {
+      "course": "LTAT.06.004 | Võrgutehnoloogia I",
+      "conversation_count": 13,
+      "debugging": 4,
+      "code_generation": 2,
+      "explanations": 13
+    },
+    {
+      "course": "LTAT.03.006 | Automaadid, keeled ja translaatorid",
+      "conversation_count": 12,
+      "debugging": 8,
+      "code_generation": 8,
+      "explanations": 9
+    },
+    {
+      "course": "LTAT.06.003 | Süsteemihaldus",
+      "conversation_count": 12,
+      "debugging": 8,
+      "code_generation": 2,
+      "explanations": 12
+    },
+    {
+      "course": "LTAT.06.015 | DevOps: tarkvara tarnimise ja käituse automatiseerimine",
+      "conversation_count": 10,
+      "debugging": 6,
+      "code_generation": 1,
+      "explanations": 10
+    },
+    {
+      "course": "LTAT.03.019 | Funktsionaalprogrammeerimine",
+      "conversation_count": 7,
+      "debugging": 3,
+      "code_generation": 5,
+      "explanations": 6
+    },
+    {
+      "course": "LTAT.06.021 | Mobiilirakenduste arendus",
+      "conversation_count": 7,
+      "debugging": 3,
+      "code_generation": 2,
+      "explanations": 5
+    },
+    {
+      "course": "LTAT.05.005 | Tarkvaraprojekt",
+      "conversation_count": 6,
+      "debugging": 0,
+      "code_generation": 0,
+      "explanations": 6
+    },
+    {
+      "course": "LTAT.03.002 | Sissejuhatus erialasse",
+      "conversation_count": 3,
+      "debugging": 0,
+      "code_generation": 0,
+      "explanations": 2
+    },
+    {
+      "course": "LTAT.01.004 | Eestikeelne kommunikatsioon arvutiteaduses",
+      "conversation_count": 1,
+      "debugging": 0,
+      "code_generation": 0,
+      "explanations": 1
+    }
+  ]
+}

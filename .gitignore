@@ -1,0 +1,35 @@
+# Secrets
+.env
+.env.*
+!.env.example
+APIKEY*
+*.key
+*.pem
+
+# Real data: never commit
+data/
+raw/
+unpacked/
+conversations.json
+!examples/conversations.sample.json
+*.zip
+outputs/
+classified_*.json
+!examples/output/classified_*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# OS / editor / Office
+.DS_Store
+~$*
+.~lock.*
+.idea/
+.vscode/
+*.log
+*.tmp
+*.bak

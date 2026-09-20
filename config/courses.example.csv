@@ -1,0 +1,6 @@
+code,name,name_en,semester_start,semester_end,description
+CS101,Introduction to Programming,,2024-09-01,2025-01-31,"Variables, control flow, functions, basic data structures in Python."
+MATH101,Calculus I,,2024-09-01,2025-01-31,"Limits, derivatives, integrals and their applications."
+CS201,Data Structures and Algorithms,,2025-02-01,2025-06-15,"Lists, trees, graphs, sorting, complexity analysis."
+CS210,Databases,,2025-02-01,2025-06-15,"Relational model, SQL, normalisation, transactions."
+STAT201,Probability and Statistics,,2025-02-01,2025-06-15,"Probability distributions, estimation, hypothesis testing."

@@ -1,0 +1,26 @@
+course,conversation_count,one_tag_count,two_tag_count,three_tag_count,exclusive_debugging_count,exclusive_code_generation_count,exclusive_explanations_count,debugging_count,code_generation_count,explanations_count,dominant_pattern,debugging_minus_code_generation
+LTMS.00.062 | Kõrgem matemaatika I (alused),80,76,3,0,0,0,76,2,1,79,debugging_heavier,1
+LTAT.03.007 | Programmeerimine II,73,11,39,23,0,4,7,42,50,66,code_generation_heavier,-8
+LTAT.03.005 | Algoritmid ja andmestruktuurid,55,22,25,8,0,6,16,14,33,49,code_generation_heavier,-19
+MTMM.00.342 | Matemaatiline maailmapilt,46,46,0,0,0,0,46,0,0,46,balanced,0
+MTMS.02.059 | Tõenäosusteooria ja matemaatiline statistika,46,45,1,0,0,0,45,1,0,46,debugging_heavier,1
+LTAT.03.001 | Programmeerimine,45,16,16,13,0,6,10,23,26,38,code_generation_heavier,-3
+LTAT.03.004 | Andmebaasid,37,12,15,10,0,2,10,17,21,34,code_generation_heavier,-4
+LTAT.05.004 | Veebirakenduste loomine,35,7,21,7,0,1,6,26,11,33,debugging_heavier,15
+LTAT.03.003 | Objektorienteeritud programmeerimine,27,6,15,6,0,4,2,11,21,22,code_generation_heavier,-10
+LTAT.05.003 | Tarkvaratehnika,27,12,13,2,0,1,11,15,3,26,debugging_heavier,12
+LTAT.05.006 | Tarkvara testimine,25,12,9,4,0,2,10,12,7,23,debugging_heavier,5
+LTAT.05.007 | Inimese ja arvuti interaktsioon,24,13,9,1,0,1,12,6,6,22,balanced,0
+LTAT.06.001 | Operatsioonisüsteemid,20,11,3,6,0,0,11,8,7,20,debugging_heavier,1
+LTAT.06.002 | Andmeturve,20,13,5,2,0,0,13,6,3,20,debugging_heavier,3
+LOFY.03.079 | Arvuti arhitektuur ja riistvara I,19,19,0,0,0,0,19,0,0,19,balanced,0
+LTMS.00.066 | Diskreetne matemaatika,14,14,0,0,0,0,14,0,0,14,balanced,0
+LTAT.06.004 | Võrgutehnoloogia I,13,8,4,1,0,0,8,4,2,13,debugging_heavier,2
+"LTAT.03.006 | Automaadid, keeled ja translaatorid",12,2,7,3,0,2,0,8,8,9,balanced,0
+LTAT.06.003 | Süsteemihaldus,12,2,10,0,0,0,2,8,2,12,debugging_heavier,6
+LTAT.06.015 | DevOps: tarkvara tarnimise ja käituse automatiseerimine,10,4,5,1,0,0,4,6,1,10,debugging_heavier,5
+LTAT.03.019 | Funktsionaalprogrammeerimine,7,2,3,2,0,1,1,3,5,6,code_generation_heavier,-2
+LTAT.06.021 | Mobiilirakenduste arendus,7,4,3,0,1,1,2,3,2,5,debugging_heavier,1
+LTAT.05.005 | Tarkvaraprojekt,6,6,0,0,0,0,6,0,0,6,balanced,0
+LTAT.03.002 | Sissejuhatus erialasse,3,2,0,0,0,0,2,0,0,2,balanced,0
+LTAT.01.004 | Eestikeelne kommunikatsioon arvutiteaduses,1,1,0,0,0,0,1,0,0,1,balanced,0

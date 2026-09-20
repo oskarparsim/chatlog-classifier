@@ -1,0 +1,7 @@
+# One keyword per line (case-insensitive). If a conversation contains any of
+# these, the keyword pre-filter forces it into the "unmatched" bucket.
+# Use it to keep obviously non-academic topics out. Replace with your own list.
+recipe
+holiday
+horoscope
+lyrics

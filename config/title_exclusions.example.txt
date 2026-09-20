@@ -1,0 +1,4 @@
+# One conversation title per line (case-insensitive, exact match).
+# Conversations with these titles are always treated as non-academic.
+Weekend plans
+Birthday gift ideas

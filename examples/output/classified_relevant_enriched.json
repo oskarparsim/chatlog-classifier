@@ -1,0 +1,242 @@
+[
+  {
+    "relevance": "relevant_to_university_studies",
+    "domain": [
+      "programming"
+    ],
+    "use_types": [
+      "solving_homework_tasks",
+      "understanding_code_examples"
+    ],
+    "discard_reason": null,
+    "notes": "Student asks for help fixing a filter condition in a homework exercise.",
+    "index": 0,
+    "title": "List comprehension returns wrong values",
+    "sentiment": "negative",
+    "tags": [
+      "debugging",
+      "explanations"
+    ],
+    "matched_courses": [
+      {
+        "course_code": "CS101",
+        "course_name": "Introduction to Programming",
+        "course_description": "Variables, control flow, functions, basic data structures in Python.",
+        "semester_start": "2024-09-01",
+        "semester_end": "2025-01-31"
+      }
+    ]
+  },
+  {
+    "relevance": "relevant_to_university_studies",
+    "domain": [
+      "math"
+    ],
+    "use_types": [
+      "studying_for_test"
+    ],
+    "discard_reason": null,
+    "notes": "Explanation and practice problems for a calculus exam.",
+    "index": 1,
+    "title": "Product rule example",
+    "sentiment": "neutral",
+    "tags": [
+      "explanations"
+    ],
+    "matched_courses": [
+      {
+        "course_code": "MATH101",
+        "course_name": "Calculus I",
+        "course_description": "Limits, derivatives, integrals and their applications.",
+        "semester_start": "2024-09-01",
+        "semester_end": "2025-01-31"
+      }
+    ]
+  },
+  {
+    "relevance": "relevant_to_university_studies",
+    "domain": [
+      "programming"
+    ],
+    "use_types": [
+      "answering_lecture_quizzes"
+    ],
+    "discard_reason": null,
+    "notes": "Multiple-choice lecture quiz about stack memory.",
+    "index": 3,
+    "title": "Recursion vs iteration",
+    "sentiment": "neutral",
+    "tags": [
+      "explanations"
+    ],
+    "matched_courses": [
+      {
+        "course_code": "CS101",
+        "course_name": "Introduction to Programming",
+        "course_description": "Variables, control flow, functions, basic data structures in Python.",
+        "semester_start": "2024-09-01",
+        "semester_end": "2025-01-31"
+      }
+    ]
+  },
+  {
+    "relevance": "relevant_to_university_studies",
+    "domain": [
+      "programming"
+    ],
+    "use_types": [
+      "solving_homework_tasks"
+    ],
+    "discard_reason": null,
+    "notes": "Assignment code generation followed by debugging a null-pointer error.",
+    "index": 4,
+    "title": "Binary search tree insert",
+    "sentiment": "neutral",
+    "tags": [
+      "Code generation",
+      "debugging"
+    ],
+    "matched_courses": [
+      {
+        "course_code": "CS201",
+        "course_name": "Data Structures and Algorithms",
+        "course_description": "Lists, trees, graphs, sorting, complexity analysis.",
+        "semester_start": "2025-02-01",
+        "semester_end": "2025-06-15"
+      }
+    ]
+  },
+  {
+    "relevance": "relevant_to_university_studies",
+    "domain": [
+      "programming"
+    ],
+    "use_types": [
+      "studying_for_test",
+      "understanding_code_examples"
+    ],
+    "discard_reason": null,
+    "notes": "SQL join explanation for a midterm.",
+    "index": 5,
+    "title": "INNER JOIN versus LEFT JOIN",
+    "sentiment": "neutral",
+    "tags": [
+      "explanations"
+    ],
+    "matched_courses": [
+      {
+        "course_code": "CS210",
+        "course_name": "Databases",
+        "course_description": "Relational model, SQL, normalisation, transactions.",
+        "semester_start": "2025-02-01",
+        "semester_end": "2025-06-15"
+      }
+    ]
+  },
+  {
+    "relevance": "relevant_to_university_studies",
+    "domain": [
+      "math"
+    ],
+    "use_types": [
+      "other_academic_use"
+    ],
+    "discard_reason": null,
+    "notes": "Conceptual explanation of a statistics term without a clear task context.",
+    "index": 7,
+    "title": "What a p-value means",
+    "sentiment": "negative",
+    "tags": [
+      "explanations"
+    ],
+    "matched_courses": [
+      {
+        "course_code": "STAT201",
+        "course_name": "Probability and Statistics",
+        "course_description": "Probability distributions, estimation, hypothesis testing.",
+        "semester_start": "2025-02-01",
+        "semester_end": "2025-06-15"
+      }
+    ]
+  },
+  {
+    "relevance": "mixed",
+    "domain": [
+      "programming",
+      "other"
+    ],
+    "use_types": [
+      "solving_homework_tasks",
+      "non_academic_use"
+    ],
+    "discard_reason": null,
+    "notes": "Hiking question mixed with debugging a course project script.",
+    "index": 8,
+    "title": "Hiking route and CSV import crash",
+    "sentiment": "neutral",
+    "tags": [
+      "debugging"
+    ],
+    "matched_courses": [
+      {
+        "course_code": "CS210",
+        "course_name": "Databases",
+        "course_description": "Relational model, SQL, normalisation, transactions.",
+        "semester_start": "2025-02-01",
+        "semester_end": "2025-06-15"
+      }
+    ]
+  },
+  {
+    "relevance": "relevant_to_university_studies",
+    "domain": [
+      "programming"
+    ],
+    "use_types": [
+      "solving_homework_tasks"
+    ],
+    "discard_reason": null,
+    "notes": "Normalisation question from a database homework.",
+    "index": 9,
+    "title": "Is this table in 3NF?",
+    "sentiment": "neutral",
+    "tags": [
+      "explanations"
+    ],
+    "matched_courses": [
+      {
+        "course_code": "CS210",
+        "course_name": "Databases",
+        "course_description": "Relational model, SQL, normalisation, transactions.",
+        "semester_start": "2025-02-01",
+        "semester_end": "2025-06-15"
+      }
+    ]
+  },
+  {
+    "relevance": "relevant_to_university_studies",
+    "domain": [
+      "programming"
+    ],
+    "use_types": [
+      "understanding_code_examples"
+    ],
+    "discard_reason": null,
+    "notes": "Asks for the reasoning behind quadratic time complexity.",
+    "index": 10,
+    "title": "Big-O of nested loops",
+    "sentiment": "negative",
+    "tags": [
+      "explanations"
+    ],
+    "matched_courses": [
+      {
+        "course_code": "CS201",
+        "course_name": "Data Structures and Algorithms",
+        "course_description": "Lists, trees, graphs, sorting, complexity analysis.",
+        "semester_start": "2025-02-01",
+        "semester_end": "2025-06-15"
+      }
+    ]
+  }
+]

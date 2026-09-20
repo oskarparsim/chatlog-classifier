@@ -1,0 +1,639 @@
+[
+  {
+    "title": "List comprehension returns wrong values",
+    "create_time": 1728914400.0,
+    "update_time": 1728914480.0,
+    "mapping": {
+      "msg-00-0": {
+        "id": "msg-00-0",
+        "parent": null,
+        "children": [
+          "msg-00-1"
+        ],
+        "message": {
+          "id": "msg-00-0",
+          "author": {
+            "role": "user"
+          },
+          "create_time": 1728914400.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Homework 3 for my intro programming course: return only the squares of the even numbers in a list. My code [x**2 for x in nums if x % 2] gives the odd ones. What is wrong?"
+            ]
+          }
+        }
+      },
+      "msg-00-1": {
+        "id": "msg-00-1",
+        "parent": "msg-00-0",
+        "children": [],
+        "message": {
+          "id": "msg-00-1",
+          "author": {
+            "role": "assistant"
+          },
+          "create_time": 1728914440.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "x % 2 is truthy for odd numbers. Use x % 2 == 0 to keep the even ones: [x**2 for x in nums if x % 2 == 0]."
+            ]
+          }
+        }
+      }
+    },
+    "current_node": "msg-00-1",
+    "conversation_id": "sample-00"
+  },
+  {
+    "title": "Product rule example",
+    "create_time": 1730642400.0,
+    "update_time": 1730642560.0,
+    "mapping": {
+      "msg-01-0": {
+        "id": "msg-01-0",
+        "parent": null,
+        "children": [
+          "msg-01-1"
+        ],
+        "message": {
+          "id": "msg-01-0",
+          "author": {
+            "role": "user"
+          },
+          "create_time": 1730642400.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Can you explain the product rule using x^2 * sin(x)? I have a calculus exam on Friday."
+            ]
+          }
+        }
+      },
+      "msg-01-1": {
+        "id": "msg-01-1",
+        "parent": "msg-01-0",
+        "children": [
+          "msg-01-2"
+        ],
+        "message": {
+          "id": "msg-01-1",
+          "author": {
+            "role": "assistant"
+          },
+          "create_time": 1730642440.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "The product rule says (fg)' = f'g + fg'. With f = x^2 and g = sin(x): 2x*sin(x) + x^2*cos(x)."
+            ]
+          }
+        }
+      },
+      "msg-01-2": {
+        "id": "msg-01-2",
+        "parent": "msg-01-1",
+        "children": [
+          "msg-01-3"
+        ],
+        "message": {
+          "id": "msg-01-2",
+          "author": {
+            "role": "user"
+          },
+          "create_time": 1730642480.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Thanks, can you give me two more practice problems?"
+            ]
+          }
+        }
+      },
+      "msg-01-3": {
+        "id": "msg-01-3",
+        "parent": "msg-01-2",
+        "children": [],
+        "message": {
+          "id": "msg-01-3",
+          "author": {
+            "role": "assistant"
+          },
+          "create_time": 1730642520.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Try differentiating x*e^x and (x^3)*ln(x), then check against the product rule."
+            ]
+          }
+        }
+      }
+    },
+    "current_node": "msg-01-3",
+    "conversation_id": "sample-01"
+  },
+  {
+    "title": "Chicken soup recipe",
+    "create_time": 1731088800.0,
+    "update_time": 1731088880.0,
+    "mapping": {
+      "msg-02-0": {
+        "id": "msg-02-0",
+        "parent": null,
+        "children": [
+          "msg-02-1"
+        ],
+        "message": {
+          "id": "msg-02-0",
+          "author": {
+            "role": "user"
+          },
+          "create_time": 1731088800.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "What is a simple recipe for chicken soup?"
+            ]
+          }
+        }
+      },
+      "msg-02-1": {
+        "id": "msg-02-1",
+        "parent": "msg-02-0",
+        "children": [],
+        "message": {
+          "id": "msg-02-1",
+          "author": {
+            "role": "assistant"
+          },
+          "create_time": 1731088840.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Simmer chicken, carrots, onion and celery in water for 40 minutes, then season with salt and pepper."
+            ]
+          }
+        }
+      }
+    },
+    "current_node": "msg-02-1",
+    "conversation_id": "sample-02"
+  },
+  {
+    "title": "Recursion vs iteration",
+    "create_time": 1733148000.0,
+    "update_time": 1733148080.0,
+    "mapping": {
+      "msg-03-0": {
+        "id": "msg-03-0",
+        "parent": null,
+        "children": [
+          "msg-03-1"
+        ],
+        "message": {
+          "id": "msg-03-0",
+          "author": {
+            "role": "user"
+          },
+          "create_time": 1733148000.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Lecture quiz question: which uses more stack memory, recursion or iteration? Options are A) recursion B) iteration C) same D) depends on the language."
+            ]
+          }
+        }
+      },
+      "msg-03-1": {
+        "id": "msg-03-1",
+        "parent": "msg-03-0",
+        "children": [],
+        "message": {
+          "id": "msg-03-1",
+          "author": {
+            "role": "assistant"
+          },
+          "create_time": 1733148040.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Recursion generally uses more stack memory, because each call adds a stack frame. Answer: A."
+            ]
+          }
+        }
+      }
+    },
+    "current_node": "msg-03-1",
+    "conversation_id": "sample-03"
+  },
+  {
+    "title": "Binary search tree insert",
+    "create_time": 1741701600.0,
+    "update_time": 1741701760.0,
+    "mapping": {
+      "msg-04-0": {
+        "id": "msg-04-0",
+        "parent": null,
+        "children": [
+          "msg-04-1"
+        ],
+        "message": {
+          "id": "msg-04-0",
+          "author": {
+            "role": "user"
+          },
+          "create_time": 1741701600.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Write an insert method for a binary search tree in Java. It is for assignment 2 in the data structures course."
+            ]
+          }
+        }
+      },
+      "msg-04-1": {
+        "id": "msg-04-1",
+        "parent": "msg-04-0",
+        "children": [
+          "msg-04-2"
+        ],
+        "message": {
+          "id": "msg-04-1",
+          "author": {
+            "role": "assistant"
+          },
+          "create_time": 1741701640.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Here is a recursive insert(Node node, int value) that returns the updated subtree root..."
+            ]
+          }
+        }
+      },
+      "msg-04-2": {
+        "id": "msg-04-2",
+        "parent": "msg-04-1",
+        "children": [
+          "msg-04-3"
+        ],
+        "message": {
+          "id": "msg-04-2",
+          "author": {
+            "role": "user"
+          },
+          "create_time": 1741701680.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "It throws a NullPointerException when the tree is empty. Here is my code: public void add(int v) { root.insert(v); }"
+            ]
+          }
+        }
+      },
+      "msg-04-3": {
+        "id": "msg-04-3",
+        "parent": "msg-04-2",
+        "children": [],
+        "message": {
+          "id": "msg-04-3",
+          "author": {
+            "role": "assistant"
+          },
+          "create_time": 1741701720.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "root is null for an empty tree. Handle that case in add(): if (root == null) root = new Node(v); else root.insert(v);"
+            ]
+          }
+        }
+      }
+    },
+    "current_node": "msg-04-3",
+    "conversation_id": "sample-04"
+  },
+  {
+    "title": "INNER JOIN versus LEFT JOIN",
+    "create_time": 1742911200.0,
+    "update_time": 1742911280.0,
+    "mapping": {
+      "msg-05-0": {
+        "id": "msg-05-0",
+        "parent": null,
+        "children": [
+          "msg-05-1"
+        ],
+        "message": {
+          "id": "msg-05-0",
+          "author": {
+            "role": "user"
+          },
+          "create_time": 1742911200.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Explain the difference between INNER JOIN and LEFT JOIN with a small example. Studying for the database midterm."
+            ]
+          }
+        }
+      },
+      "msg-05-1": {
+        "id": "msg-05-1",
+        "parent": "msg-05-0",
+        "children": [],
+        "message": {
+          "id": "msg-05-1",
+          "author": {
+            "role": "assistant"
+          },
+          "create_time": 1742911240.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "INNER JOIN returns only rows with a match in both tables. LEFT JOIN keeps every row from the left table and fills missing matches with NULL."
+            ]
+          }
+        }
+      }
+    },
+    "current_node": "msg-05-1",
+    "conversation_id": "sample-05"
+  },
+  {
+    "title": "Birthday gift ideas",
+    "create_time": 1743620400.0,
+    "update_time": 1743620480.0,
+    "mapping": {
+      "msg-06-0": {
+        "id": "msg-06-0",
+        "parent": null,
+        "children": [
+          "msg-06-1"
+        ],
+        "message": {
+          "id": "msg-06-0",
+          "author": {
+            "role": "user"
+          },
+          "create_time": 1743620400.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Gift ideas for my sister's 25th birthday? She likes hiking and photography."
+            ]
+          }
+        }
+      },
+      "msg-06-1": {
+        "id": "msg-06-1",
+        "parent": "msg-06-0",
+        "children": [],
+        "message": {
+          "id": "msg-06-1",
+          "author": {
+            "role": "assistant"
+          },
+          "create_time": 1743620440.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "A lightweight tripod, a waterproof camera bag, or a day-hike guidebook for a region she has not visited yet."
+            ]
+          }
+        }
+      }
+    },
+    "current_node": "msg-06-1",
+    "conversation_id": "sample-06"
+  },
+  {
+    "title": "What a p-value means",
+    "create_time": 1745157600.0,
+    "update_time": 1745157680.0,
+    "mapping": {
+      "msg-07-0": {
+        "id": "msg-07-0",
+        "parent": null,
+        "children": [
+          "msg-07-1"
+        ],
+        "message": {
+          "id": "msg-07-0",
+          "author": {
+            "role": "user"
+          },
+          "create_time": 1745157600.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "I still do not get what a p-value actually means. Can you explain it simply?"
+            ]
+          }
+        }
+      },
+      "msg-07-1": {
+        "id": "msg-07-1",
+        "parent": "msg-07-0",
+        "children": [],
+        "message": {
+          "id": "msg-07-1",
+          "author": {
+            "role": "assistant"
+          },
+          "create_time": 1745157640.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "A p-value is the probability of seeing data at least as extreme as yours if the null hypothesis were true. It is not the probability that the null hypothesis is true."
+            ]
+          }
+        }
+      }
+    },
+    "current_node": "msg-07-1",
+    "conversation_id": "sample-07"
+  },
+  {
+    "title": "Hiking route and CSV import crash",
+    "create_time": 1746280800.0,
+    "update_time": 1746280960.0,
+    "mapping": {
+      "msg-08-0": {
+        "id": "msg-08-0",
+        "parent": null,
+        "children": [
+          "msg-08-1"
+        ],
+        "message": {
+          "id": "msg-08-0",
+          "author": {
+            "role": "user"
+          },
+          "create_time": 1746280800.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Two things. First, suggest a 15 km hiking route with a lake. Second, my Python script for the databases course project crashes when importing a CSV into SQLite."
+            ]
+          }
+        }
+      },
+      "msg-08-1": {
+        "id": "msg-08-1",
+        "parent": "msg-08-0",
+        "children": [
+          "msg-08-2"
+        ],
+        "message": {
+          "id": "msg-08-1",
+          "author": {
+            "role": "assistant"
+          },
+          "create_time": 1746280840.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "For the hike, look for a loop around a lake reserve. For the crash, paste the traceback so I can see which line fails."
+            ]
+          }
+        }
+      },
+      "msg-08-2": {
+        "id": "msg-08-2",
+        "parent": "msg-08-1",
+        "children": [
+          "msg-08-3"
+        ],
+        "message": {
+          "id": "msg-08-2",
+          "author": {
+            "role": "user"
+          },
+          "create_time": 1746280880.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "sqlite3.OperationalError: table students has 4 columns but 5 values were supplied"
+            ]
+          }
+        }
+      },
+      "msg-08-3": {
+        "id": "msg-08-3",
+        "parent": "msg-08-2",
+        "children": [],
+        "message": {
+          "id": "msg-08-3",
+          "author": {
+            "role": "assistant"
+          },
+          "create_time": 1746280920.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Your INSERT has five placeholders but the table has four columns. Either add the missing column or remove one placeholder."
+            ]
+          }
+        }
+      }
+    },
+    "current_node": "msg-08-3",
+    "conversation_id": "sample-08"
+  },
+  {
+    "title": "Is this table in 3NF?",
+    "create_time": 1747058400.0,
+    "update_time": 1747058480.0,
+    "mapping": {
+      "msg-09-0": {
+        "id": "msg-09-0",
+        "parent": null,
+        "children": [
+          "msg-09-1"
+        ],
+        "message": {
+          "id": "msg-09-0",
+          "author": {
+            "role": "user"
+          },
+          "create_time": 1747058400.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Is this table in third normal form? orders(order_id, customer_id, customer_city, product_id, quantity). Homework 5."
+            ]
+          }
+        }
+      },
+      "msg-09-1": {
+        "id": "msg-09-1",
+        "parent": "msg-09-0",
+        "children": [],
+        "message": {
+          "id": "msg-09-1",
+          "author": {
+            "role": "assistant"
+          },
+          "create_time": 1747058440.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "No. customer_city depends on customer_id, not on the key order_id, which is a transitive dependency. Move it to a customers table."
+            ]
+          }
+        }
+      }
+    },
+    "current_node": "msg-09-1",
+    "conversation_id": "sample-09"
+  },
+  {
+    "title": "Big-O of nested loops",
+    "create_time": 1747663200.0,
+    "update_time": 1747663280.0,
+    "mapping": {
+      "msg-10-0": {
+        "id": "msg-10-0",
+        "parent": null,
+        "children": [
+          "msg-10-1"
+        ],
+        "message": {
+          "id": "msg-10-0",
+          "author": {
+            "role": "user"
+          },
+          "create_time": 1747663200.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "Why is a loop inside another loop O(n^2)? I do not follow the counting argument."
+            ]
+          }
+        }
+      },
+      "msg-10-1": {
+        "id": "msg-10-1",
+        "parent": "msg-10-0",
+        "children": [],
+        "message": {
+          "id": "msg-10-1",
+          "author": {
+            "role": "assistant"
+          },
+          "create_time": 1747663240.0,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "If the outer loop runs n times and the inner loop runs n times for each of those, the body executes n * n = n^2 times."
+            ]
+          }
+        }
+      }
+    },
+    "current_node": "msg-10-1",
+    "conversation_id": "sample-10"
+  }
+]

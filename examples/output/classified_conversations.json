@@ -1,0 +1,149 @@
+[
+  {
+    "relevance": "relevant_to_university_studies",
+    "domain": [
+      "programming"
+    ],
+    "use_types": [
+      "solving_homework_tasks",
+      "understanding_code_examples"
+    ],
+    "discard_reason": null,
+    "notes": "Student asks for help fixing a filter condition in a homework exercise.",
+    "index": 0,
+    "title": "List comprehension returns wrong values"
+  },
+  {
+    "relevance": "relevant_to_university_studies",
+    "domain": [
+      "math"
+    ],
+    "use_types": [
+      "studying_for_test"
+    ],
+    "discard_reason": null,
+    "notes": "Explanation and practice problems for a calculus exam.",
+    "index": 1,
+    "title": "Product rule example"
+  },
+  {
+    "relevance": "personal_irrelevant",
+    "domain": [
+      "other"
+    ],
+    "use_types": [
+      "non_academic_use"
+    ],
+    "discard_reason": "Cooking recipe, unrelated to university studies.",
+    "notes": "Personal use.",
+    "index": 2,
+    "title": "Chicken soup recipe"
+  },
+  {
+    "relevance": "relevant_to_university_studies",
+    "domain": [
+      "programming"
+    ],
+    "use_types": [
+      "answering_lecture_quizzes"
+    ],
+    "discard_reason": null,
+    "notes": "Multiple-choice lecture quiz about stack memory.",
+    "index": 3,
+    "title": "Recursion vs iteration"
+  },
+  {
+    "relevance": "relevant_to_university_studies",
+    "domain": [
+      "programming"
+    ],
+    "use_types": [
+      "solving_homework_tasks"
+    ],
+    "discard_reason": null,
+    "notes": "Assignment code generation followed by debugging a null-pointer error.",
+    "index": 4,
+    "title": "Binary search tree insert"
+  },
+  {
+    "relevance": "relevant_to_university_studies",
+    "domain": [
+      "programming"
+    ],
+    "use_types": [
+      "studying_for_test",
+      "understanding_code_examples"
+    ],
+    "discard_reason": null,
+    "notes": "SQL join explanation for a midterm.",
+    "index": 5,
+    "title": "INNER JOIN versus LEFT JOIN"
+  },
+  {
+    "relevance": "personal_irrelevant",
+    "domain": [
+      "other"
+    ],
+    "use_types": [
+      "non_academic_use"
+    ],
+    "discard_reason": "Gift ideas, unrelated to university studies.",
+    "notes": "Personal use.",
+    "index": 6,
+    "title": "Birthday gift ideas"
+  },
+  {
+    "relevance": "relevant_to_university_studies",
+    "domain": [
+      "math"
+    ],
+    "use_types": [
+      "other_academic_use"
+    ],
+    "discard_reason": null,
+    "notes": "Conceptual explanation of a statistics term without a clear task context.",
+    "index": 7,
+    "title": "What a p-value means"
+  },
+  {
+    "relevance": "mixed",
+    "domain": [
+      "programming",
+      "other"
+    ],
+    "use_types": [
+      "solving_homework_tasks",
+      "non_academic_use"
+    ],
+    "discard_reason": null,
+    "notes": "Hiking question mixed with debugging a course project script.",
+    "index": 8,
+    "title": "Hiking route and CSV import crash"
+  },
+  {
+    "relevance": "relevant_to_university_studies",
+    "domain": [
+      "programming"
+    ],
+    "use_types": [
+      "solving_homework_tasks"
+    ],
+    "discard_reason": null,
+    "notes": "Normalisation question from a database homework.",
+    "index": 9,
+    "title": "Is this table in 3NF?"
+  },
+  {
+    "relevance": "relevant_to_university_studies",
+    "domain": [
+      "programming"
+    ],
+    "use_types": [
+      "understanding_code_examples"
+    ],
+    "discard_reason": null,
+    "notes": "Asks for the reasoning behind quadratic time complexity.",
+    "index": 10,
+    "title": "Big-O of nested loops"
+  }
+]
